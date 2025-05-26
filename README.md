@@ -107,7 +107,7 @@ chat_model = o4-mini
 The system automatically adapts to your OpenAI API access level:
 
 **Chat Models** (use best available):
-- `o4-mini` - Latest reasoning model (requires organization verification)
+- `o4-mini` - Latest reasoning model  
 - `gpt-4.1` - Advanced reasoning and coding
 - `gpt-4o` - Multimodal capabilities  
 - `gpt-4-turbo` - High performance
