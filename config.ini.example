@@ -1,0 +1,25 @@
+[DEFAULT]
+# PDF Processing Settings
+pdf_path = input.pdf
+output_dir = output
+max_chunk_size = 2000
+top_k_results = 3
+dpi = 300
+use_multiprocessing = false
+
+# System Paths (update these for your system)
+# Windows examples:
+tesseract_cmd = C:\Program Files\Tesseract-OCR\tesseract.exe
+poppler_path = C:\Program Files\Poppler\bin
+
+# macOS/Linux examples (usually auto-detected):
+# tesseract_cmd = /usr/local/bin/tesseract
+# poppler_path = /usr/local/bin
+
+# OpenAI Settings - Latest Models (May 2025)
+embedding_model = text-embedding-3-large
+chat_model = o3
+
+# Leave empty to auto-detect or set specific paths for your system
+# tesseract_cmd = 
+# poppler_path = 
